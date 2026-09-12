@@ -223,7 +223,7 @@
   "shared_belt_semantics": {
     "is_fourth_pole": false,
     "is_authority_root": false,
-    "allowed": ["pointer", "wake", "receipt", "receiver_state", "return", "conflict", "reentry_pointer", "rebuild_pointer"],
+    "allowed": ["pointer", "wake", "receipt", "receiver_state", "return", "conflict", "reconciliation_status", "reentry_pointer", "rebuild_pointer"],
     "native_body_copy_default": false
   },
   "legacy_interpretation": "HISTORICAL_OR_COMPATIBILITY_UNLESS_EXPLICITLY_RE_ADMITTED",
