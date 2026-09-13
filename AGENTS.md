@@ -72,6 +72,8 @@ Material Delta
 
 Rules:
 - Shared visibility != Canon.
+- Participation in producing a change does not make that actor or carrier an event subscriber.
+- Receipt visibility or delivery does not dispatch work. Automatic wake requires an exact materially affected Receiver and an already eligible dependency, Return, rebuild, or re-entry relation; otherwise remain `OBSERVE_ONLY` or `QUIET`.
 - Read != absorb.
 - Equivalent receipt may be reused without re-propagation.
 - Historical re-entry requires a specific purpose such as provenance, audit, failure learning, regression, rebuild or successor validation.
